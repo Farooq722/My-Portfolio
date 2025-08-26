@@ -48,19 +48,21 @@ export const Hero2 = () => {
   ];
 
   return (
-    <div className="text-white mt-5">
-      <h1 className="text-3xl font-semibold font-serif leading-tight">
+    <div className="text-white mt-5 px-4 sm:px-0">
+      <h1 className="text-3xl font-semibold font-serif leading-tight text-center sm:text-left">
         Proof Of Work
       </h1>
-      <p className="text-sm mt-2 text-gray-300 tracking-[0.7px]">
+      <p className="text-sm mt-2 text-gray-300 tracking-[0.7px] text-center sm:text-left">
         My work is available at{" "}
         <span className="text-white font-medium">X, LinkedIn & Notion</span>
       </p>
-      <div className="grid grid-cols-2 gap-2 py-2">
+
+      {/* Responsive grid: 1 col on mobile, 2 on tablets, 3 on large */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 py-2">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="mt-6 bg-transparent border border-gray-600 px-4 py-6 rounded space-y-3 "
+            className="mt-6 bg-transparent border border-gray-600 px-4 py-6 rounded space-y-3"
           >
             <h2 className="text-2xl font-semibold text-gray-300">
               {project.title}
@@ -72,14 +74,14 @@ export const Hero2 = () => {
               <a
                 href={project.href}
                 target="_blank"
-                className="text-gray-400 hover:text-red-100 "
+                className="text-gray-400 hover:text-red-100"
               >
                 <VscLiveShare size={20} />
               </a>
               <a
                 href={project.href}
                 target="_blank"
-                className="text-gray-400 hover:text-red-100 "
+                className="text-gray-400 hover:text-red-100"
               >
                 <ImGithub size={20} />
               </a>
@@ -87,14 +89,16 @@ export const Hero2 = () => {
           </div>
         ))}
       </div>
+
       <div>
-        <h1 className="text-xl font-medium mt-4 text-gray-500">
+        <h1 className="text-xl font-medium mt-4 text-gray-500 text-center sm:text-left">
           Github contributions
         </h1>
         <div className="w-full p-4">
           <img
             src="https://ghchart.rshah.org/Farooq722"
             alt="Farooq Github chart"
+            className="max-w-full h-auto"
           />
         </div>
       </div>

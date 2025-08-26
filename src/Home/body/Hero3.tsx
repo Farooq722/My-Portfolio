@@ -19,15 +19,16 @@ export const Hero3 = () => {
   ];
 
   return (
-    <div className="text-white mt-5">
+    <div className="text-white mt-5 px-4 sm:px-0 text-center sm:text-left">
       <h1 className="text-3xl font-semibold font-serif leading-tight">
         Tech Stack
       </h1>
-      <div className="flex flex-wrap gap-2 mt-2 py-4">
+
+      <div className="flex flex-wrap justify-center sm:justify-start gap-x-2 gap-y-3 mt-2 py-4">
         {skills.map((skill, index) => (
           <span
             key={index}
-            className="text-sm text-gray-400 font-medium leading-tight border border-gray-500 p-2  rounded-md"
+            className="text-sm text-gray-400 font-medium leading-tight border border-gray-500 p-2 rounded-md max-w-full break-words whitespace-normal"
           >
             {skill}
           </span>
