@@ -2,7 +2,7 @@ import { Home } from "./Home/Home";
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-transparent via-gray-600 to-transparent">
+    <div className="bg-gradient-to-r from-transparent via-sky-200 to-transparent">
       <Home />
     </div>
   );

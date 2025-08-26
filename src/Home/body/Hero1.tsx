@@ -26,7 +26,7 @@ export const Hero1 = () => {
           <img
             src="./portimage.jpeg"
             alt="Profile pic"
-            className="rounded-full w-[270px] h-[270px] bg-white"
+            className="rounded-full w-[270px] h-[270px]"
           />
           <div className="flex flex-col space-y-4 mt-6 md:mt-10 items-center md:items-start text-center md:text-left">
             <h1 className="text-3xl font-serif font-extrabold text-white leading-tight">

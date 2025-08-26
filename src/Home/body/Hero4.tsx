@@ -18,7 +18,7 @@ export const Hero4 = () => {
         {blogs.map((blog, index) => (
           <div
             key={index}
-            className="border border-gray-700 p-2 rounded-md w-full sm:w-auto max-w-full"
+            className="border border-gray-700 hover:bg-gray-800 p-2 rounded-md w-full sm:w-full max-w-full"
           >
             <h2 className="text-md font-semibold text-gray-400 break-words">
               <a

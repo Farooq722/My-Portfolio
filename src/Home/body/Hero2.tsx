@@ -11,39 +11,39 @@ export const Hero2 = () => {
         "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine.",
     },
     {
-      title: "100xDevsAlumni",
-      github: "https://github.com/Farooq722/100xDevsAlumni",
-      href: "https://100x-devs-alumni-frontend.vercel.app",
+      title: "Mediom Blog",
+      github: "https://github.com/Farooq722/medium",
+      href: "https://mediom-five.vercel.app",
       decs:
         "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine.",
     },
     {
-      title: "100xDevsAlumni",
-      github: "https://github.com/Farooq722/100xDevsAlumni",
-      href: "https://100x-devs-alumni-frontend.vercel.app",
+      title: "Gen Image AI",
+      github: "https://github.com/Farooq722/Gen-Image",
+      href: "https://gen-image-fe.vercel.app",
       decs:
         "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine.",
     },
     {
-      title: "100xDevsAlumni",
-      github: "https://github.com/Farooq722/100xDevsAlumni",
-      href: "https://100x-devs-alumni-frontend.vercel.app",
+      title: "1bullex Landing Page",
+      github: "https://github.com/Farooq722/bull-landing-page",
+      href: "https://1bullex.vercel.app",
       decs:
         "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine. ",
     },
     {
-      title: "100xDevsAlumni",
-      github: "https://github.com/Farooq722/100xDevsAlumni",
-      href: "https://100x-devs-alumni-frontend.vercel.app",
+      title: "Appit Landing Page",
+      github: "https://github.com/Farooq722/appit-landing-page",
+      href: "https://appit-ten.vercel.app",
       decs:
         "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine.",
     },
     {
-      title: "100xDevsAlumni",
-      github: "https://github.com/Farooq722/100xDevsAlumni",
-      href: "https://100x-devs-alumni-frontend.vercel.app",
+      title: "Paytm Replica",
+      github: "https://github.com/Farooq722/paytm",
+      href: "https://github.com/Farooq722/paytm",
       decs:
-        "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine. ",
+        "This project is a Paytm-like application that enables users to sign up, log in, transfer money between accounts, and view account details via a dashboard. It features a simple wallet system with secure authentication and transaction capabilities, utilizing modern web technologies.",
     },
   ];
 
@@ -57,8 +57,7 @@ export const Hero2 = () => {
         <span className="text-white font-medium">X, LinkedIn & Notion</span>
       </p>
 
-      {/* Responsive grid: 1 col on mobile, 2 on tablets, 3 on large */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 py-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2  gap-3 sm:gap-4 py-2">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -67,7 +66,7 @@ export const Hero2 = () => {
             <h2 className="text-2xl font-semibold text-gray-300">
               {project.title}
             </h2>
-            <p className="text-sm text-gray-500 font-medium leading-tight line-clamp-5">
+            <p className="text-sm text-gray-500 font-medium leading-tight line-clamp-4">
               {project.decs}
             </p>
             <div className="flex items-center gap-6 mt-4">
@@ -79,7 +78,7 @@ export const Hero2 = () => {
                 <VscLiveShare size={20} />
               </a>
               <a
-                href={project.href}
+                href={project.github}
                 target="_blank"
                 className="text-gray-400 hover:text-red-100"
               >

@@ -7,7 +7,7 @@ import { Navbar } from "./Navbar/App";
 
 export const Home = () => {
   return (
-    <div className="w-full max-w-[50rem] mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-4 bg-slate-900 rounded-md">
+    <div className="w-full max-w-[50rem] mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-4 bg-neutral-900 rounded-md">
       <Navbar />
       <Hero1 />
       <span className="block h-[1px] border border-gray-800 w-full" />
