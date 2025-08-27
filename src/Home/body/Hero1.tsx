@@ -22,11 +22,11 @@ export const Hero1 = () => {
   return (
     <section className="py-10 text-white">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center md:flex-row md:items-start md:space-x-10">
+        <div className="flex flex-col items-center md:flex-row md:items-start md:space-x-10 ">
           <img
             src="./portimage.jpeg"
             alt="Profile pic"
-            className="rounded-full w-[270px] h-[270px]"
+            className="rounded-full w-[270px] h-[270px] shadow-lg shadow-white/25"
           />
           <div className="flex flex-col space-y-4 mt-6 md:mt-10 items-center md:items-start text-center md:text-left">
             <h1 className="text-3xl font-serif font-extrabold text-white leading-tight">

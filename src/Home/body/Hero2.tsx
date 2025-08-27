@@ -8,35 +8,35 @@ export const Hero2 = () => {
       github: "https://github.com/Farooq722/100xDevsAlumni",
       href: "https://100x-devs-alumni-frontend.vercel.app",
       decs:
-        "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine.",
+        "100xDevs Alumni is a community-driven platform where graduates of the 100xDevs program connect, showcase profiles, and collaborate. It helps alumni network, share opportunities, and mentor peers while enabling recruiters to discover talent. With features like directories, role management, and analytics, it strengthens professional growth and long-term collaboration.",
     },
     {
       title: "Mediom Blog",
       github: "https://github.com/Farooq722/medium",
       href: "https://mediom-five.vercel.app",
       decs:
-        "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine.",
+        "Medium is an online publishing platform where writers share stories, ideas, and insights with a global audience. It provides a clean, distraction-free writing experience and allows readers to engage through highlights and comments. Writers can grow audiences, join the Partner Program, and earn from readership, making storytelling widely accessible.",
     },
     {
       title: "Gen Image AI",
       github: "https://github.com/Farooq722/Gen-Image",
       href: "https://gen-image-fe.vercel.app",
       decs:
-        "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine.",
+        "Gen Image AI model use deep learning to create realistic or artistic visuals from text prompts. Trained on vast image–text datasets, they learn patterns of style, color, and composition. Users simply describe what they imagine, and the model generates unique images, revolutionizing creativity, design, and visual content creation globally.",
     },
     {
       title: "1bullex Landing Page",
       github: "https://github.com/Farooq722/bull-landing-page",
       href: "https://1bullex.vercel.app",
       decs:
-        "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine. ",
+        "1Bullex Landing Page highlights modern design, responsive layouts, and interactive UI components. Built with clean code, animations, and Tailwind, it demonstrates creativity, frontend expertise, and attention to user experience.",
     },
     {
       title: "Appit Landing Page",
       github: "https://github.com/Farooq722/appit-landing-page",
       href: "https://appit-ten.vercel.app",
       decs:
-        "About Website is totally fine and working, But there are some minor fixes need to be done and will focus on that, till then website is deployed and working fine.",
+        "Appit Landing Page showcases sleek design, responsive sections, and interactive elements. Built with modern frontend tools, it demonstrates user-focused UI, smooth animations, and clean code to highlight professional web development skills.",
     },
     {
       title: "Paytm Replica",
@@ -61,7 +61,7 @@ export const Hero2 = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="mt-6 bg-transparent border border-gray-600 px-4 py-6 rounded space-y-3"
+            className="mt-6 bg-transparent border border-gray-600 px-4 py-6 shadow-lg shadow-white/15 rounded-lg space-y-3"
           >
             <h2 className="text-2xl font-semibold text-gray-300">
               {project.title}
@@ -90,14 +90,14 @@ export const Hero2 = () => {
       </div>
 
       <div>
-        <h1 className="text-xl font-medium mt-4 text-gray-500 text-center sm:text-left">
+        <h1 className="text-xl font-medium mt-8 text-gray-500 text-center sm:text-left">
           Github contributions
         </h1>
-        <div className="w-full p-4">
+        <div className="w-full p-4 overflow-x-auto">
           <img
             src="https://ghchart.rshah.org/Farooq722"
             alt="Farooq Github chart"
-            className="max-w-full h-auto"
+            className="min-w-[600px] max-w-none h-full"
           />
         </div>
       </div>
